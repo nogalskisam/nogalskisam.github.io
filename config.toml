@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "samuel nogalski"
+theme = "Samn_dev"
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "posts"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "contact"
+    url = "/contact/"
+    weight = 4
+[permalinks]
+  singles = "/:title/"
