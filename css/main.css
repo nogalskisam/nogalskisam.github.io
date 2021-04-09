@@ -1,0 +1,34 @@
+body {
+    background-color: #223552;
+    color: #b5b5b5;
+    font-family: 'Inconsolata', monospace;
+    height: 100vh;
+}
+
+a {
+    color: #b5b5b5;
+    text-decoration: underline;
+}
+
+nav .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav .navigation > a {
+    flex-grow: 3;
+}
+
+.content {
+    max-width: 40.025em;
+    display: block;
+    margin: 10em auto;
+}
+
+@media only screen and (max-width: 40.025em) {
+    .content {
+        margin: 1em auto;
+    }
+}
