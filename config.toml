@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "samuel nogalski"
-theme = "Samn_dev"
+theme = "samn_dev"
 
 [menu]
   [[menu.main]]
